@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Book-List/static/css/main.9b29454e.css",
+    "main.js": "/React-Book-List/static/js/main.33b1a1ec.js",
+    "static/js/787.d4aba7ab.chunk.js": "/React-Book-List/static/js/787.d4aba7ab.chunk.js",
+    "static/media/marauders-map-front-page-ktm5p8uzrze9jf82.jpg": "/React-Book-List/static/media/marauders-map-front-page-ktm5p8uzrze9jf82.3b0dfb5c30cc811814c5.jpg",
+    "index.html": "/React-Book-List/index.html",
+    "main.9b29454e.css.map": "/React-Book-List/static/css/main.9b29454e.css.map",
+    "main.33b1a1ec.js.map": "/React-Book-List/static/js/main.33b1a1ec.js.map",
+    "787.d4aba7ab.chunk.js.map": "/React-Book-List/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b29454e.css",
+    "static/js/main.33b1a1ec.js"
+  ]
+}
