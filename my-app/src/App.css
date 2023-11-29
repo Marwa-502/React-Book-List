@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    height: 100vh; 
+    background-image: url('../public/marauders-map-front-page-ktm5p8uzrze9jf82.jpg'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+  }
+  
+  .App-header {
+    background-color: #34495e; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .HarryPotterH1{
+    font-family: 'Harry Potter Font', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    font-style: italic;
+    color: #ffd700; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .HarryPotterP {
+    font-family: 'harry potter font';
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-style: italic;
+  }
+
+  
+  .DeleteButton {
+    background-color: #990000; 
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  
+  .AddBookForm input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 2px solid #6b4226; 
+    border-radius: 4px;
+  }
+  
+  .AddBookForm button {
+    background-color: #6b4226; 
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    color: #ffcc00;
+ }
+  

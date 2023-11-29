@@ -3,11 +3,10 @@ import React from 'react';
 const BookList = ({ books, onDeleteBook }) => {
     return (
         <div>
-            <h2>Book List</h2>
-            <ul>
+            <ul> 
                 {books.map((book) => (
                     <li key=  {book.id} >   {book.title}
-                        <button onClick={() => onDeleteBook(book.id)} style={{ color: 'red' }}> <strong> X </strong> </button>
+                        <button className="DeleteButton" onClick={() => onDeleteBook(book.id)} > <strong>  Vanish  </strong> </button>
                     </li>
 
                 ))}

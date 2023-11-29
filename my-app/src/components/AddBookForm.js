@@ -25,7 +25,7 @@ function AddBookForm({onAddBook}){
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="AddBookForm" onSubmit={handleSubmit}>
         <input type="text" value={newBookName} onChange={handleInput} />
       <button type="submit">Add your own book</button>
     </form>

@@ -4,12 +4,12 @@ import React, { useEffect, useState } from 'react';
 import AddBookForm from './components/AddBookForm';
 
 
-const MockApiUrl = // api key is in comments on Canvas
+const MockApiUrl = 'https://655d2efa9f1e1093c5991797.mockapi.io/Marwa/Booklist'// api key is in comments on Canvas
 
 function App() {
 
+    //GET
     const [books, setBooks] = useState([ ]);
-
     useEffect(() => {
         async function fetchData() {
             try {
@@ -24,6 +24,7 @@ function App() {
         fetchData()
     }, []);
 
+//POST
     const handleAddBook = async (newBookName) => {
         try {
             const response = await fetch(MockApiUrl, {
@@ -45,9 +46,8 @@ function App() {
         }
     };
 
-
+//DELETE
     const handleDeleteBook = async (bookId) => {
-
         try {
             const response = await fetch(`${MockApiUrl}/${bookId}`, {
                 method: 'DELETE',
@@ -65,10 +65,11 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1> Our Secret Bookshelf </h1>
-                <p>Welcome to our secret book shelf!</p>
-                <BookList books={books} onDeleteBook={handleDeleteBook} />
-                <AddBookForm onAddBook={handleAddBook} />
+                <h1 className="HarryPotterH1" > Shhh! Its a secret!</h1>
+                <p className="HarryPotterP" > "I solemnly swear that i am up to no good" </p>
+                <br/>
+                <BookList className="BookList" books={books} onDeleteBook={handleDeleteBook} />
+                <AddBookForm className="AddBookForm"  onAddBook={handleAddBook} />
             </header>
         </div>
     );
