@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 function AddBookForm({onAddBook}){
-    const [newBookName, setNewBookName] = useState();
+    const [newBookName, setNewBookName] = useState('');
 
 
   const handleInput = (e) => {
